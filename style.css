@@ -1,0 +1,254 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ecf2f8;
+}
+.container {
+  display: grid;
+  border: 1px solid #ecf2f8;
+  width: 70%;
+  height: 80vh;
+  gap: 30px;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas:
+    "Daniel Daniel Daniel Daniel Daniel Daniel Daniel Daniel Jonatan Jonatan Jonatan Jonatan kira kira kira kira"
+    "Daniel Daniel Daniel Daniel Daniel Daniel Daniel Daniel Jonatan Jonatan Jonatan Jonatan kira kira kira kira"
+    "Daniel Daniel Daniel Daniel Daniel Daniel Daniel Daniel Jonatan Jonatan Jonatan Jonatan kira kira kira kira"
+    "Daniel Daniel Daniel Daniel Daniel Daniel Daniel Daniel Jonatan Jonatan Jonatan Jonatan kira kira kira kira"
+    "Jeanette Jeanette Jeanette Jeanette patrik patrik patrik patrik patrik patrik patrik patrik kira kira kira kira "
+    "Jeanette Jeanette Jeanette Jeanette patrik patrik patrik patrik patrik patrik patrik patrik kira kira kira kira "
+    "Jeanette Jeanette Jeanette Jeanette patrik patrik patrik patrik patrik patrik patrik patrik kira kira kira kira "
+    "Jeanette Jeanette Jeanette Jeanette patrik patrik patrik patrik patrik patrik patrik patrik kira kira kira kira ";
+}
+.box1 {
+  background-color: #733fc8;
+  grid-area: Daniel;
+  border-radius: 10px;
+  padding: 32px;
+}
+.daniel_profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.daniel_photo {
+  width: 28px;
+  height: 28px;
+}
+span {
+  margin-left: 3px;
+}
+.daniel_name {
+  font-size: 13px;
+  font-weight: 450;
+  color: white;
+  margin: 0;
+  margin-left: 17px;
+  letter-spacing: 0.5px;
+}
+.daniel_status {
+  font-size: 11px;
+  font-weight: 450;
+  color: white;
+  opacity: 50%;
+  margin: 0;
+  margin-left: 17px;
+  letter-spacing: 0.5px;
+}
+.daniel_maintext {
+  font-size: 17px;
+  font-weight: 550;
+  color: white;
+}
+.daniel_secondtext {
+  font-size: 13px;
+  font-weight: 450;
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.box2 {
+  background-color: #48556a;
+  grid-area: Jonatan;
+  border-radius: 10px;
+  padding: 32px;
+}
+.jonatan_profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.jonatan_photo {
+  width: 28px;
+  height: 28px;
+}
+span {
+  margin-left: 3px;
+}
+.jonatan_name {
+  font-size: 13px;
+  font-weight: 450;
+  color: white;
+  margin: 0;
+  margin-left: 17px;
+}
+.jonatan_status {
+  font-size: 11px;
+  font-weight: 450;
+  color: white;
+  opacity: 50%;
+  margin: 0;
+  margin-left: 17px;
+}
+.jonatan_maintext {
+  font-size: 17px;
+  font-weight: 550;
+  color: white;
+}
+.jonatan_secondtext {
+  font-size: 13px;
+  font-weight: 450;
+  color: white;
+  opacity: 50%;
+}
+.box3 {
+  background-color: white;
+  grid-area: Jeanette;
+  border-radius: 10px;
+  padding: 32px;
+}
+.jeanette_profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.jeanette_photo {
+  width: 28px;
+  height: 28px;
+}
+span {
+  margin-left: 3px;
+}
+.jeanette_name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+  margin: 0;
+  margin-left: 17px;
+}
+.jeanette_status {
+  font-size: 11px;
+  font-weight: 500;
+  color: #48556a;
+  opacity: 70%;
+  margin: 0;
+  margin-left: 17px;
+}
+.jeanette_maintext {
+  height: 80px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #48556a;
+}
+.jeanette_secondtext {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+  opacity: 70%;
+}
+.box4 {
+  background-color: #19202d;
+  grid-area: patrik;
+  border-radius: 10px;
+  padding: 32px;
+}
+.patrick_profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.patrick_photo {
+  width: 28px;
+  height: 28px;
+}
+span {
+  margin-left: 3px;
+}
+.patrick_name {
+  font-size: 13px;
+  font-weight: 450;
+  color: white;
+  margin: 0;
+  margin-left: 17px;
+  letter-spacing: 0.5px;
+}
+.patrick_status {
+  font-size: 11px;
+  font-weight: 450;
+  color: white;
+  opacity: 50%;
+  margin: 0;
+  margin-left: 17px;
+  letter-spacing: 0.5px;
+}
+.patrick_maintext {
+  height: 80px;
+  font-size: 18px;
+  font-weight: 550;
+  color: white;
+}
+.patrick_secondtext {
+  font-size: 13px;
+  font-weight: 450;
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.box5 {
+  background-color: white;
+  grid-area: kira;
+  border-radius: 10px;
+  padding: 32px;
+}
+.kira_profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.kira_photo {
+  width: 28px;
+  height: 28px;
+}
+span {
+  margin-left: 3px;
+}
+.kira_name {
+  font-size: 13px;
+  font-weight: 450;
+  color: #48556a;
+  margin: 0;
+  margin-left: 17px;
+}
+.kira_status {
+  font-size: 11px;
+  font-weight: 500;
+  color: #48556a;
+  opacity: 70%;
+  margin: 0;
+  margin-left: 17px;
+}
+.kira_maintext {
+  height: 80px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #48556a;
+}
+.kira_secondtext {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+  opacity: 70%;
+}
